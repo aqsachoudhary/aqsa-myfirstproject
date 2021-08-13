@@ -1,0 +1,41 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+.MainLayOutContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+.SideBar {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 100vh;
+  background-color: #3f4d68;
+  /* position: fixed; */
+}
+.SideBarContainer1 {
+  display: flex;
+
+  width: 100%;
+  height: 20%;
+}
+/* .ProfilePicture {
+} */
+.SideBarContainer2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.MainContainer1 {
+  width: 85%;
+}

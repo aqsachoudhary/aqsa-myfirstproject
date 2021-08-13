@@ -1,0 +1,15 @@
+.headings {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0rem 0.5rem;
+  min-height: 2rem;
+  border-bottom: solid 1px white;
+}
+
+.title {
+  font-size: 17px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}

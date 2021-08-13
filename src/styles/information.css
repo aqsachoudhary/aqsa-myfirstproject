@@ -1,0 +1,63 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background-color: dodgerblue;
+  /* border-radius: 30px; */
+  padding: 40px 0px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 50%;
+  margin: 10px 0px;
+}
+/* input {
+  margin: 10px 0px;
+  height: 30px;
+  padding: 0px 10px;
+
+  border: none;
+} */
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+select {
+  width: 100%;
+  margin: 10px 0px;
+  height: 30px;
+  /* border-radius: 10px; */
+}
+.radiobutton {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.radiobutton input {
+  margin: 2px 0px;
+  height: 15px;
+}
+.submitbutton {
+  /* border-radius: 10px; */
+  height: 30px;
+  border: none;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

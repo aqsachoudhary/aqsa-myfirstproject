@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+.productForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 20px 0px;
+}
+.innerContainer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: dodgerblue;
+  border-radius: 16px;
+  padding: 1rem 0;
+}

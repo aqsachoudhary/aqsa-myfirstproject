@@ -1,0 +1,25 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.input {
+  margin: 10px 0px;
+  height: 30px;
+  padding: 0px 10px;
+  border: none;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  text-transform: lowercase;
+}
